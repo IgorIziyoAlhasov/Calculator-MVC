@@ -1,0 +1,31 @@
+{
+  "name": "calculator-mvc",
+  "version": "1.0.0",
+  "description": "My take on classic Calculator application in Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorIziyoAlhasov/Calculator-MVC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorIziyoAlhasov/Calculator-MVC/issues"
+  },
+  "homepage": "https://github.com/IgorIziyoAlhasov/Calculator-MVC#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.8.0"
+  }
+}
